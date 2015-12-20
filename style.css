@@ -1,10 +1,12 @@
 * {
-    font-size:50px;
+    font-size:75px;
+}
+div {
+    padding-top:10px;
+    padding-bottom:10px;
 }
 div.age {
     display:block;
-    padding-top:100px;
-    padding-bottom:50px;
     margin:0;
     background:yellow;
     position:relative;
@@ -18,11 +20,80 @@ div.age {
 select#age {
     border-color:indianred;
     border-width:5px;
-    font-size:40px;
+    font-size:25px;
 }
 div.height {
     margin:0;
     display:block;
     position:relative;
-    
+    top:11%;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align:center;
+    background-color:orange;   
+}
+select#heightft {
+    border-color:indianred;
+    border-width:5px;
+    font-size:25px;
+}
+select#heightin {
+    border-color:indianred;
+    border-width:5px;
+    font-size:25px;
+}
+div.sweat {
+    display:block;
+    margin:0;
+    background:pink;
+    position:relative;
+    top:10%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align:center;
+    font-size:54.5px;
+}
+select#sweat {
+    border-color:indianred;
+    border-width:5px;
+    font-size:25px;
+}
+div.energy {
+    display:block;
+    margin:0;
+    background:turquoise;
+    position:relative;
+    top:10%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align:center;
+    font-size:47.5px;
+}
+select#energy {
+    border-color:indianred;
+    border-width:5px;
+    font-size:25px;
+}
+div.weight {
+    display:block;
+    margin:0;
+    background:purple;
+    position:relative;
+    top:13%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align:center;
+}
+select#weight {
+    border-color:indianred;
+    border-width:5px;
+    font-size:25px;
 }
