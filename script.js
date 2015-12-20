@@ -109,6 +109,6 @@ function onClick(){
     });  
 
     function notify(sweat){
-		alert("Hello, please drink " + sweat*30 +  " mL of water to stay hydrated in order OutsideLands Music Festival to its fullest extent.\n (Notification will be pushed every 1/2 hour.)")    ;	
+		alert("Hello, please drink " + sweat*30 +  " mL of water to stay hydrated in order to enjoy your activity to its fullest extent.\n (Notification will be pushed every 1/2 hour.)")    ;	
     }
 }

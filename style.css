@@ -4,6 +4,10 @@
 div {
     padding-top:10px;
     padding-bottom:10px;
+    transition:.5s;
+}
+div:hover {
+    opacity:.7;
 }
 div.age {
     display:block;
@@ -85,15 +89,46 @@ div.weight {
     margin:0;
     background:purple;
     position:relative;
-    top:13%;
+    top:11%;
     left:50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     width:100%;
     text-align:center;
+    font-size:50px;
 }
 select#weight {
     border-color:indianred;
     border-width:5px;
     font-size:25px;
+}
+.button {
+    background-color:none;
+    position:relative;
+    top:6%;
+    height:10%;
+}
+button {
+    color:green;
+    background-color:yellow;
+    border-color:red;
+    border-width:2px;
+    transition:.5s;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:25%;
+    font-size:35px;
+}
+button:hover, button:focus {
+    color:white;
+    background-color:black;
+    border:hidden;
+}
+#water {
+    font-size:30px;
+    text-align:center;
+    position:relative;
 }
