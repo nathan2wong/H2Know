@@ -139,7 +139,7 @@ button:hover, button:focus {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    left
+    position:absolute;
 }
 .header {
     height:35px;
