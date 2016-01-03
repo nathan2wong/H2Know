@@ -6,6 +6,7 @@ div {
     padding-top:10px;
     padding-bottom:10px;
     transition:.5s;
+    cursor:crosshair;
 }
 div:hover {
     opacity:.7;
@@ -120,6 +121,7 @@ button {
     transform: translate(-50%, -50%);
     width:25%;
     font-size:35px;
+    cursor:pointer;
 }
 button:hover, button:focus {
     color:white;
@@ -144,4 +146,7 @@ button:hover, button:focus {
 .header {
     height:35px;
     text-align:center;
+}
+select {
+    cursor:pointer;
 }
